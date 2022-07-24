@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 536548282}
   - component: {fileID: 536548281}
   - component: {fileID: 536548283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584256231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.981025, y: -0.78008944, z: 0}
+  m_LocalPosition: {x: -2.981025, y: -1.69, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -370,6 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4cec19af4ced84082d890dc42825cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 3
+  jumpForce: 5
 --- !u!1 &813970641
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +467,7 @@ GameObject:
   - component: {fileID: 1115985843}
   - component: {fileID: 1115985842}
   - component: {fileID: 1115985844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
